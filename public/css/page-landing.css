@@ -41,21 +41,21 @@ h1,
 }
 
 #logo {
-  animation-delay: 50ms;
-}
-
-.location {
   animation-delay: 100ms;
 }
 
-main h1 {
-  animation-delay: 150ms;
-}
-
-.visit p {
+.location {
   animation-delay: 200ms;
 }
 
+main h1 {
+  animation-delay: 300ms;
+}
+
+.visit p {
+  animation-delay: 400ms;
+}
+
 .visit a {
-  animation-delay: 250ms;
+  animation-delay: 500ms;
 }
