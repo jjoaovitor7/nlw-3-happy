@@ -17,7 +17,7 @@
 .location,
 h1,
 .visit p {
-  height: 16vh;
+  height: 15vh;
 }
 
 #logo {
@@ -62,10 +62,10 @@ main h1 {
 /* Desktop */
 @media (min-width: 768px) {
   #container {
-    padding: 7.1rem 2rem 0 2rem;
+    padding: 6rem 2rem 0 2rem;
     /* shothand background: image repeat position / size */
     background: url("../assets/bg.svg") no-repeat 80% /
-      clamp(30rem, 54vw, 56rem);
+      clamp(30rem, 36.5vw, 50rem);
   }
 
   header {
@@ -92,7 +92,7 @@ main h1 {
     font-weight: bold;
     line-height: 0.88;
 
-    margin: clamp(10%, 4vh, 12%) 0 4rem;
+    margin: clamp(10%, 0, 12%) 0 4rem;
 
     width: min(30rem, 80%);
   }
