@@ -11,6 +11,8 @@ O projeto Happy é um projeto da 3º edição do Next Level Week, um evento que 
 ## :rocket: Tecnologias utilizadas
 * HTML
 * CSS
+* JavaScript
+* NodeJS
 
 ---
 
