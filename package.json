@@ -1,0 +1,25 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "<img src=\"https://raw.githubusercontent.com/jjoaovitor7/nlw-3-happy/master/public/assets/logo-icon.png\" /> **Happy**",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjoaovitor7/nlw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjoaovitor7/nlw/issues"
+  },
+  "homepage": "https://github.com/jjoaovitor7/nlw#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}

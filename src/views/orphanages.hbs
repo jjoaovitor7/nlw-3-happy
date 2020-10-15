@@ -6,12 +6,12 @@
     <title>Localize um orfanato | Happy</title>
 
     <!-- icon -->
-    <link rel="icon" href="./public/assets/logo-icon.png" />
+    <link rel="icon" href="/assets/logo-icon.png" />
 
     <!-- css -->
-    <link rel="stylesheet" href="./public/css/main.css" />
-    <link rel="stylesheet" href="./public/css/page-orphanages.css" />
-    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/page-orphanages.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
 
     <!-- fonts -->
     <link
@@ -39,7 +39,7 @@
     <div id="page-orphanages">
       <aside class="animate-right">
         <header>
-          <img src="./public/assets/map-marker.svg" alt="Happy" />
+          <img src="/assets/map-marker.svg" alt="Happy" />
 
           <h2>Escolha um orfanato no mapa</h2>
 
@@ -53,16 +53,27 @@
       </aside>
 
       <div id="mapid" class="animate-appear">
+        <div class="orphanages">
+        {{#each orphanages}}
+          <span hidden
+           data-id="{{this.id}}"
+           data-name="{{this.name}}"
+           data-lat="{{this.lat}}"
+           data-lng="{{this.lng}}"
+         ></span>
+        {{/each}}
+        </div>
+     
         <a
-          href="create-orphanage.html"
+          href="create-orphanage"
           class="create-orphanage"
           title="Cadastre um orfanato"
         >
-          <img src="./public/assets/plus.svg" alt="Criar orfanato" />
+          <img src="/assets/plus.svg" alt="Criar orfanato" />
         </a>
       </div>
     </div>
 
-    <script src="./public/scripts/page-orphanages.js"></script>
+    <script src="/scripts/page-orphanages.js"></script>
   </body>
 </html>
