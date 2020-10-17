@@ -13,6 +13,8 @@ O projeto Happy é um projeto da 3º edição do Next Level Week, um evento que 
 * CSS
 * JavaScript
 * NodeJS
+* hbs (handlebars)
+* SQLite
 
 ---
 
